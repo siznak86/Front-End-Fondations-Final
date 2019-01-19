@@ -13,7 +13,7 @@ githubrepos.onreadystatechange = function () {
         for (var i = 0; i < myObj.length; i++) {
             var obj = myObj[i];
             console.log(obj.name);
-            let list = document.createElement("ul");
+            let list = document.createElement("li");
             list.innerHTML = obj.name
             let container = document.getElementById("demo");
             container.appendChild(list);

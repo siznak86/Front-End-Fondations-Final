@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 html, body {
     height: 100%;
 }
@@ -18,25 +22,38 @@ body {
     align-items: center;
 }
 .head{
+    font-size: 2em;
     padding-right: 50px;
 }
 .body{
+    font-size: 30px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .media-container{
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.social{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .icons{
+    padding: 20px;
+    width: 500px;
     display:flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 a{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .transition {
     transform: scale(1.5);
@@ -54,10 +71,15 @@ a{
     color: #123C70;
 }
 .repo-container{
+    font-size: 30px;
+    margin: 100px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+}
+.repoimg{
+    padding: 10px;
 }
 .foot-container{
     background-color: gray;
