@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Source Serif Pro', serif;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    background-color: #DC7633;
+    flex: 1 0 auto;
+}
+.head-container{
+    background-color:#5EBEB9;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.head{
+    padding-right: 50px;
+}
+.body{
+    display: flex;
+    justify-content: space-around;
+}
+.media-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.icons{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.transition {
+    transform: scale(1.5);
+}
+.skill-container{
+    border: 1px solid #123C70;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.skills{
+    color: #123C70;
+}
+.repo-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.foot-container{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    margin-top: auto;
+    justify-content: flex-start;
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
